@@ -332,7 +332,7 @@ export default function App() {
             
             <div className="mb-12">
               <ImageWithPreview 
-                src="/images/1.homepage.png" 
+                src="1.homepage.png" 
                 alt="Platform Homepage/Dashboard" 
                 className="max-w-4xl mx-auto" 
               />
@@ -556,21 +556,21 @@ export default function App() {
           <div className="space-y-8">
             {activeTab === 'student' && (
               <ImageWithPreview 
-                src="/images/3.student-dashboard.png" 
+                src="3.student-dashboard.png" 
                 alt="Student Dashboard Screenshot" 
                 className="max-w-4xl mx-auto" 
               />
             )}
             {activeTab === 'recruiter' && (
               <ImageWithPreview 
-                src="/images/7.recuriterhomepage.png" 
+                src="7.recuriterhomepage.png" 
                 alt="Recruiter Dashboard Screenshot" 
                 className="max-w-4xl mx-auto" 
               />
             )}
             {activeTab === 'admin' && (
               <ImageWithPreview 
-                src="/images/4.admin-dashboard.png" 
+                src="4.admin-dashboard.png" 
                 alt="Admin Dashboard Screenshot" 
                 className="max-w-4xl mx-auto" 
               />
@@ -603,7 +603,7 @@ export default function App() {
 
           <div className="grid lg:grid-cols-2 gap-12 mb-12">
             <ImageWithPreview 
-              src="/images/3.student-dashboard.png" 
+              src="3.student-dashboard.png" 
               alt="Student Dashboard Interface" 
               className="lg:col-span-2" 
             />
@@ -692,11 +692,11 @@ export default function App() {
 
           <div className="grid lg:grid-cols-2 gap-12 mb-12">
             <ImageWithPreview 
-              src="/images/7.recuriterhomepage.png" 
+              src="7.recuriterhomepage.png" 
               alt="Recruiter Dashboard Screenshot" 
             />
             <ImageWithPreview 
-              src="/images/5.mange-job-postings.png" 
+              src="5.mange-job-postings.png" 
               alt="Application Review Interface" 
             />
           </div>
@@ -972,7 +972,7 @@ export default function App() {
               </ul>
             </div>
             <ImageWithPreview 
-              src="/images/1.homepage.png" 
+              src="1.homepage.png" 
               alt="Job Search Interface" 
             />
           </div>
@@ -980,7 +980,7 @@ export default function App() {
           {/* Feature 2 */}
           <div className="grid lg:grid-cols-2 gap-12 items-center feature-card">
             <ImageWithPreview 
-              src="/images/3.student-dashboard.png" 
+              src="3.student-dashboard.png" 
               alt="Quick Apply Feature" 
               className="lg:order-1" 
             />
@@ -1035,7 +1035,7 @@ export default function App() {
               </ul>
             </div>
             <ImageWithPreview 
-              src="/images/6.manage-jobs.png" 
+              src="6.manage-jobs.png" 
               alt="Recruiter Analytics" 
             />
           </div>

@@ -13,7 +13,7 @@ export function ImageWithPreview({ src, alt, label, className = "" }: ImageWithP
       <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-cyan-500/10" />
       <div className="relative p-4">
         <img 
-          src={src} 
+          src={new URL(`../assets/images/${src}`, import.meta.url).href} 
           alt={alt}
           className="w-full h-auto rounded-lg shadow-lg"
         />
